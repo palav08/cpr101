@@ -1,79 +1,55 @@
 //FUNDAMENTALS MODULE SOURCE
 #define _CRT_SECURE_NO_WARNINGS
-
 // defining a macro of value 80 of buffer_size
 #define BUFFER_SIZE	80
- // defining a macro of NUM_INPUT_SIZE of value 10
+//defining a macro of value 10 of NUM_INPUT_SIZE
 #define NUM_INPUT_SIZE  10
- // including fundamentals.h file
+// including converting.h file
 #include "fundamentals.h"
 
-// V1
+// V3
+//function converting with return type void
 void fundamentals(void) {
 
-	// print statement and declaring variables
-	printf("*** Start of Indexing Strings Demo ***\n");
-	// Declaring variables
-	char buffer1[BUFFER_SIZE];
-	char numInput[NUM_INPUT_SIZE];
-	size_t	position;
-	// begining of do-while loop
+	//will print this line with print() function used
+	printf("*** Start of Copying Strings Demo ***\n");
+
+	//variable destination with size 80(BUFFER_SIZE-predefined and datatype char is declared
+	char destination[BUFFER_SIZE];
+
+	//variable source with size 80(BUFFER_SIZE-predefined and datatype char is declared
+	char source[BUFFER_SIZE];
+
+	//do-while loop used
 	do {
-		// print statement (Asking the user to type a non empty string)
+		//array destiantion with index 0 is been initialised by 0
+		destination[0] = '\0';
+
+		//will print this line with print() function used
+		printf("Destination string is reset to empty");
+
+		//will print this line with print() function used
 		printf("Type not empty string (q - to quit):\n");
-		// reads the entered string from the standard input stream and stores in the array called 'buffer1'
-		fgets(buffer1, BUFFER_SIZE, stdin);
-		// assigning the last character of 'buffer1' to a null terminating character
-		buffer1[strlen(buffer1) - 1] = '\0';
-		// if condition started and where entered character is not 'q'
-		if (strcmp(buffer1, "q") != 0) {
-			//print statement 
-			printf("Type the character position within the string:\n");
-			// reads the entered string from the standard input stream and stores in the array called 'numInput'
-			fgets(numInput, NUM_INPUT_SIZE, stdin);
-			// assign last character of 'numInput' to a null terminating character
-			numInput[strlen(numInput) - 1] = '\0';
-			// converts position to integer numerical representation of numInput
-			position = atoi(numInput);
-			// if condition starting
-			if (position >= strlen(buffer1))
-			{
-				// re-assigning the value
-				position = strlen(buffer1) - 1;
-				printf("TOO big.. Position reduced to max. availbale\n");
-			}
-			// printing the output
-			printf("The character found at %d position is \'%c\'\n", (int)position, buffer1[position]);
+
+		//reads a line from the specified stream and stores it into the source
+		fgets(source, BUFFER_SIZE, stdin);
+
+		//As we know the last byte of string must be null terminator i.e; '0' value & so we assigned '/0'
+		source[strlen(source) - 1] = '\0';
+
+		//Here in 'if loop' if the value of source is equal to character "q" then condition will false and result is end of 'if loop' otherwise the loop will carry on
+		if (strcmp(source, "q") != 0) {
+
+			//destination string to been copied to source
+			strcpy(destination, source);
+
+			//will print this line with print() function used
+			printf("New destination string is \'%s\'\n", destination);
 		}
-		// while condition of the do - while loop
-	} while (strcmp(buffer1, "q") != 0);
-	// final print statement 
-	printf("*** End of Indexing Srings Demo ***\n\n");
-
-	// Version 2
-	
-	// prints the line for measuring strings demo starting 
-	printf("*** Start of Measuring Strings Demo ***\n"); 
-	//character string declared with BUFFER_SIZE
-	char buffer2[BUFFER_SIZE];
-	do{
-	//prints the line for user to inform quit option by q
-	printf("Type a string (q - to quit):\n");
-	// reads the entered string from the standard input stream and stores in the array called 'buffer2'
-	fgets(buffer2,BUFFER_SIZE,stdin);
-	// assigning the last character of 'buffer2' to a null terminating character
-	buffer2[strlen(buffer2) - 1] = '\0';
-	// if condition started and where entered character is not 'q'
-	if (strcmp(buffer2, "q") != 0) 
-		//print statement 
-		printf("Type lenght is %lu\n", strlen(buffer2));
-	    //print statement 
-		printf("Type a string (q - to quit):\n");
-		//reads the characters from buffer2
-		gets(buffer2);
-		// while condition of the do - while loop
-	} while (strcmp(buffer2, "q") != 0);
-	// prints the line for measuring strings demo ending
-	printf("*** End of Measuring Strings Demo ***\n\n");
-}
-
+	} while (strcmp(source, "q") != 0);
+	//in while loop, if the value of source is equal to character "q" then condition will false and result
+		//is end of 'do-while loop' otherwise the loop will carry on.It is compare with help of strcmp()
+	   //function.
+		//will print this line with print() function used
+	printf("*** End of Copying Srings Demo ***\n\n");
+}//End of program
