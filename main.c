@@ -9,7 +9,7 @@
 // include the header file named tokenizing.h
 #include "tokenizing.h"
 // calling the main function as it is a main function so no arguments are required
-int main(void){
+int main(void) {
 	// inititailizing the character array named buff with the storing value of 10
 	char buff[10];
 

@@ -49,4 +49,31 @@ void fundamentals(void) {
 	} while (strcmp(buffer1, "q") != 0);
 	// final print statement 
 	printf("*** End of Indexing Srings Demo ***\n\n");
+
+	// Version 2
+	
+	// prints the line for measuring strings demo starting 
+	printf("*** Start of Measuring Strings Demo ***\n"); 
+	//character string declared with BUFFER_SIZE
+	char buffer2[BUFFER_SIZE];
+	do{
+	//prints the line for user to inform quit option by q
+	printf("Type a string (q - to quit):\n");
+	// reads the entered string from the standard input stream and stores in the array called 'buffer2'
+	fgets(buffer2,BUFFER_SIZE,stdin);
+	// assigning the last character of 'buffer2' to a null terminating character
+	buffer2[strlen(buffer2) - 1] = '\0';
+	// if condition started and where entered character is not 'q'
+	if (strcmp(buffer2, "q") != 0) 
+		//print statement 
+		printf("Type lenght is %lu\n", strlen(buffer2));
+	    //print statement 
+		printf("Type a string (q - to quit):\n");
+		//reads the characters from buffer2
+		gets(buffer2);
+		// while condition of the do - while loop
+	} while (strcmp(buffer2, "q") != 0);
+	// prints the line for measuring strings demo ending
+	printf("*** End of Measuring Strings Demo ***\n\n");
 }
+
