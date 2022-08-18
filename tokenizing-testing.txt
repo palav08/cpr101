@@ -1,0 +1,42 @@
+*** Start of Tokenizing Words Demo ***
+Type a few words separated by space (q - to quit):
+Monday Tuesday
+Word #1 is 'Monday'
+Word #2 is 'Tuesday'
+Type a few words separated by space (q - to quit):
+MyName
+Word #1 is 'MyName'
+Type a few words separated by space (q - to quit):
+Be Kind
+Word #1 is 'Be'
+Word #2 is 'Kind'
+Type a few words separated by space (q - to quit):
+Practice makes man perfect.
+Word #1 is 'Practice'
+Word #2 is 'makes'
+Word #3 is 'man'
+Word #4 is 'perfect'
+Type a few words separated by space (q - to quit):
+FollowPassion!!
+Word #1 is 'FollowPassion!!'
+Type a few words separated by space (q - to quit):
+123 456 7890
+Word #1 is '123'
+Word #2 is '456'
+Word #3 is '7890'
+Type a few words separated by space (q - to quit):
+!a@b #c$d
+Word #1 is '!a@b'
+Word #2 is '#c$d'
+Type a few words separated by space (q - to quit):
+!!!!!!!!!!
+Word #1 is '!!!!!!!!!!'
+Type a few words separated by space (q - to quit):
+123 ABC abc
+Word #1 is '123'
+Word #2 is 'ABC'
+Word #3 is 'abc'
+Type a few words separated by space (q - to quit):
+q
+*** End of Tokenizing Words Demo ***
+

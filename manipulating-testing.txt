@@ -1,0 +1,44 @@
+* Start of Concatenating Strings Demo *
+Type the 1st string (q-to quit):
+Hello
+Type the 2nd string:
+world
+Concatenated string is 'Helloworld'
+Type the 1st string (q-to quit):
+Niceto
+Type the 2nd string:
+meetyou
+Concatenated string is 'Nicetomeetyou'
+Type the 1st string (q-to quit):
+123
+Type the 2nd string:
+456
+Concatenated string is '123456'
+Type the 1st string (q-to quit):
+Be
+Type the 2nd string:
+1234
+Concatenated string is 'Be1234'
+Type the 1st string (q-to quit):
+Aaa
+Type the 2nd string:
+Bbb
+Concatenated string is 'AaaBbb'
+Type the 1st string (q-to quit):
+King123
+Type the 2nd string:
+Queen456
+Concatenated string is 'King123Queen456'
+Type the 1st string (q-to quit):
+!!@@##
+Type the 2nd string:
+$$%%&&
+Concatenated string is '!!@@##$$%%&&'
+Type the 1st string (q-to quit):
+!!1a2b
+Type the 2nd string:
+3c4d@@
+Concatenated string is '!!1a2b3c4d@@'
+Type the 1st string (q-to quit):
+q
+* End of Concatenating Strings Demo *

@@ -1,0 +1,28 @@
+*** Start of Converting Strings to int Demo ***
+Type an int numeric string (q - to quit):
+1
+Converted number is 1
+Type an int numeric string (q - to quit):
+123456789
+Converted number is 123456789
+Type an int numeric string (q - to quit):
+2147483649
+Converted number is 2147483647
+Type an int numeric string (q - to quit):
+2147483647
+Converted number is 2147483647
+Type an int numeric string (q - to quit):
+1122334455
+Converted number is 1122334455
+Type an int numeric string (q - to quit):
+HelloProfessor
+Converted number is 0
+Type an int numeric string (q - to quit):
+321
+Converted number is 321
+Type an int numeric string (q - to quit):
+!!@@##$$%%&&**
+Converted number is 0
+Type an int numeric string (q - to quit):
+q
+*** End of converting strings to int Demo ***

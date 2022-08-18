@@ -1,0 +1,127 @@
+1 - Fundamentals
+2 - Manipulation
+3 - Converting
+4 - Tokenizing
+0 - Exit
+Which module to run?
+1
+*** Start of the Indexing Strings Demo ***
+Type not empty string (q - to quit):
+CPR 101 NFF
+Type the character position within the string:
+7
+The character found at 7 position is 'N'
+Type not empty string (q - to quit):
+!@#$%&*
+Type the character position within the string:
+5
+The character found at 5 position is '%'
+Type not empty string (q - to quit):
+q
+*** End of Indexing Strings Demo ***
+
+1 - Fundamentals
+2 - Manipulation
+3 - Converting
+4 - Tokenizing
+0 - Exit
+Which module to run?
+2
+*** Start of Concatenating Strings Demo ***
+Type the 1st string (q-to quit):
+hello
+Type the 2nd string:
+world
+Concatenated string is 'helloworld'
+Type the 1st string (q-to quit):
+1
+Type the 2nd string:
+College
+Concatenated string is '1College'
+Type the 1st string (q-to quit):
+q
+*** End of Concatenating Strings Demo ***
+
+1 - Fundamentals
+2 - Manipulation
+3 - Converting
+4 - Tokenizing
+0 - Exit
+Which module to run?
+3
+*** Start of Converting Strings to int Demo ***
+Type an int numeric string (q - to quit):
+123456789
+Converted number is 123456789
+Type an int numeric string (q - to quit):
+2147483649
+Converted number is 2147483647
+Type an int numeric string (q - to quit):
+HelloProfessor
+Converted number is 0
+Type an int numeric string (q - to quit):
+!!@@##$$%%&&**
+Converted number is 0
+Type an int numeric string (q - to quit):
+ABC123!@#
+Converted number is 125
+Type an int numeric string (q - to quit):
+q
+*** End of converting strings to int Demo ***
+
+1 - Fundamentals
+2 - Manipulation
+3 - Converting
+4 - Tokenizing
+0 - Exit
+Which module to run?
+4
+*** Start of Tokenizing Words Demo ***
+Type a few words separated by space (q - to quit):
+CPR 101 Final Project
+Word #1 is 'CPR'
+Word #2 is '101'
+Word #3 is 'Final'
+Word #4 is 'Project'
+Type a few words separated by space (q - to quit):
+word1 word2 word3 word4
+Word #1 is 'word1'
+Word #2 is 'word2'
+Word #3 is 'word3'
+Word #4 is 'word4'
+Type a few words separated by space (q - to quit):
+Hello1 234
+Word #1 is 'Hello1'
+Word #2 is '234'
+Type a few words separated by space (q - to quit):
+!! @@ ##
+Word #1 is '!!'
+Word #2 is '@@'
+Word #3 is '##'
+Type a few words separated by space (q - to quit):
+ Group4 !!!!
+Word #1 is 'Group4'
+Word #2 is '!!!!'
+Type a few words separated by space (q - to quit):
+q
+*** End of Tokenizing Words Demo ***
+
+Which module to run?
+10
+1 - Fundamentals
+2 - Manipulation
+3 - Converting
+4 - Tokenizing
+0 - Exit
+Which module to run?
+
+1 - Fundamentals
+2 - Manipulation
+3 - Converting
+4 - Tokenizing
+0 - Exit
+Which module to run?
+0
+
+C:\Users\tisha\source\repos\CPR_v1\x64\Debug\CPR_v1.exe (process 9668) exited with code 0.
+Press any key to close this window . . .
