@@ -45,4 +45,33 @@ void converting(void) {
 
 	// Printing the ending line of converting
 	printf("*** End of Converting Srings to int Demo ***\n\n");
+
+	//V2
+    // prints the line for converting strings to double demo starting 
+	printf("*** Start of Converting Strings to double Demo ***\n");
+	//character string declared with BUFFER_SIZE
+	char doubleString[BUFFER_SIZE];
+	// variable doubleNumber is declared by double
+	double doubleNumber;
+	// Starting the do-while loop 
+	do {
+		//printing the line 
+		printf("Type the double numeric string (q - to quit):\n");
+		//stdin is used to send the data to the program and reads the input and stores it into the doubleString array of 80 size 
+		fgets(doubleString, BUFFER_SIZE, stdin);
+		// assign the last character of doubleString to a null character
+		doubleString[strlen(doubleString) - 1] = '\0';
+		//  applying if condition while the condition character if not equal to q
+		if ((strcmp(doubleString, "q") != 0)) {
+			// storing the double value afer converting it from string by use of atof function
+			doubleNumber = atof(doubleString);
+			// printing the result statement with the converted number
+			printf("Converted number is %f\n", doubleNumber);
+			
+			// end of if condition
+		}
+		// applying the condition for which the loop will work until q is entered
+	} while (strcmp(doubleString, "q") != 0);
+	// Printing the ending line of converting
+	printf("*** End of Converting Strings to double Demo ***\n\n");
 }
